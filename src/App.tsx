@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <h1>Counting System</h1>
-      <h1>{count}</h1>
+      <h1 data-testid="count">{count}</h1>
       <div>
         <button onClick={Increase}>Increase</button>
         <button onClick={Restart}>Restart</button>
